@@ -1,0 +1,15 @@
+telnet relay.ntua.gr 25
+HELO example.com
+MAIL FROM:<a_guru@of.net>
+RCPT TO:<el18918@mail.ntua.gr>
+DATA
+From:netwoking@guru.org
+To:netwoking@apprentice.org
+Subject:Test Message 3
+
+This is a test message.
+17
+42
+574
+.
+QUIT

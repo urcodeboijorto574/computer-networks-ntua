@@ -1,0 +1,37 @@
+Άσκηση 2 / 1η καταγραφή:
+// ΑΡΧΗ ΚΑΤΑΓΡΑΦΗΣ //
+ipconfig /flushdns
+nslookup - 147.102.1.1
+>set domain=ntua.gr
+>147.102.40.10 147.102.40.1
+>147.102.40.10 147.102.7.1
+// ΤΕΛΟΣ ΚΑΤΑΓΡΑΦΗΣ //
+// ΚΛΕΙΣΙΜΟ TERMINAL //
+
+Άσκηση 2 / 2η καταγραφή:
+// ΑΡΧΗ ΚΑΤΑΓΡΑΦΗΣ //
+nslookup -q=a - 1.1.1.1
+set q=a
+www.youtube.com
+set q=aaaa
+www.cnn.com
+// ΤΕΛΟΣ ΚΑΤΑΓΡΑΦΗΣ //
+Display Filter: "dns and (απεσταλμένα από τον DNS server)"
+
+Άσκηση 2 / 3η καταγραφή:
+//ΑΡΧΗ ΚΑΤΑΓΡΑΦΗΣ //
+nslookup - 8.8.8.8
+>set q=any
+>set q=soa
+>set q=cname
+>set q=mx
+>set q=txt
+>set q=ns
+// ΤΕΛΟΣ ΚΑΤΑΓΡΑΦΗΣ //
+Display Filter: "dns"
+
+Άσκηση 2 / 4η καταγραφή:
+// ΑΡΧΗ ΚΑΤΑΓΡΑΦΗΣ //
+nslookup - 147.102.222.210
+>ls -d planetlab.ntua.gr
+>exit
